@@ -80,6 +80,9 @@ if user_answer.lower() == answers[6].lower():
 else:
     print("Неправильно.")
 
+print(f'У тебя {score} правельных ответов. ')
+print(f'И {6 - score} неправельных.')
+
 
 
 if score >= 5:
